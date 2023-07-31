@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0;
+  padding: 16px;
+}
+
+.logo {
+  font-size: 32px;
+  color: #f9faf8;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+}
+
+.logo > p {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Borel", cursive;
+  margin-top: 13px;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 32px;
+  background-color: #1f2937;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 64px;
+  color: white;
+}
+
+.content-text > h1 {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-family: "Borel", cursive;
+}
+
+#cake {
+  width: 450px;
+  height: 350px;
+  padding: 32px;
+  margin-right: 64px;
+  border-radius: 64px;
+}
